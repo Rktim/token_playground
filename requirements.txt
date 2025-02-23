@@ -1,5 +1,6 @@
 streamlit
 transformers
-torch 
+torch
 tokenizers
-pandas  
+pandas
+sentencepiece

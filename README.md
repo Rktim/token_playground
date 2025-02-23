@@ -23,11 +23,6 @@
 ![image](https://github.com/user-attachments/assets/51cea70f-b32e-46af-b310-94fd6a2306a2)
 
 
-### 🔹 Tokenization in Action
-![Tokenization Example](https://via.placeholder.com/800x400?text=Tokenizer+Playground+Demo)
-
----
-
 ## 🛠️ How It Works
 
 - Select a **tokenizer model** (e.g., BERT, GPT-2, XLM-RoBERTa).

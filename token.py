@@ -19,26 +19,29 @@ st.write("Compare different tokenizers and understand how text is processed in L
 model_options = ["bert-base-uncased", "gpt2", "xlm-roberta-base"]
 model_name = st.selectbox("Choose a tokenizer model:", model_options)
 
+# Load tokenizer
 tokenizer = load_tokenizer(model_name)
 
 # User input text
 user_text = st.text_area("Enter text to tokenize:", "Hello, how are you?")
 
-if user_text:
-    tokens, token_ids = tokenize_text(tokenizer, user_text)
-    
-    st.subheader("Tokenized Output")
-    st.write("**Tokens:**", tokens)
-    st.write("**Token IDs:**", token_ids)
-    
-    # Visualization
-    st.subheader("Visualization")
-    st.write("Token breakdown:")
-    token_table = np.array([tokens, token_ids]).T
-    st.table(token_table)
-    
-    st.write("Byte-level details (for BPE models):")
-    byte_tokens = [token.encode('utf-8') for token in tokens]
-    st.write(byte_tokens)
+# Add a button to trigger tokenization
+if st.button("Tokenize"):
+    if user_text:
+        tokens, token_ids = tokenize_text(tokenizer, user_text)
+        
+        st.subheader("Tokenized Output")
+        st.write("**Tokens:**", tokens)
+        st.write("**Token IDs:**", token_ids)
+        
+        # Visualization
+        st.subheader("Visualization")
+        st.write("Token breakdown:")
+        token_table = np.array([tokens, token_ids]).T
+        st.table(token_table)
+        
+        st.write("Byte-level details (for BPE models):")
+        byte_tokens = [token.encode('utf-8') for token in tokens]
+        st.write(byte_tokens)
 
-st.write("Try different models and see how tokenization changes!'")
+st.write("Try different models and see how tokenization changes!")

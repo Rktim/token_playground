@@ -13,8 +13,8 @@
 
 ## 🚀 Try It Live!
 
-[![Try it]([https://img.shields.io/badge/Button-Click%20Here-blue)](https://your-link.com](https://tokenplayground.streamlit.app/))
- 
+[![Try It](https://img.shields.io/badge/Try%20It-Click%20Here-blue?style=for-the-badge)](https://tokenplayground.streamlit.app/)
+
 
 💻 No installation required! Just open the link and start exploring.
 

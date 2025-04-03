@@ -46,6 +46,6 @@ Want to improve this project? Feel free to **fork the repo, open issues, or subm
 ---
 ---
 ## License
-This project is under .
+This project is under [LICENSE](LICENSE).
 
 🚀 **Explore Tokenization Like Never Before!** 🚀

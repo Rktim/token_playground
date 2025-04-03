@@ -44,5 +44,8 @@ Want to improve this project? Feel free to **fork the repo, open issues, or subm
 📩 **For suggestions & feedback**, reach out via [GitHub Issues](https://github.com/Rktim/token_playground/issues).
 
 ---
+---
+## License
+This project is under .
 
 🚀 **Explore Tokenization Like Never Before!** 🚀
